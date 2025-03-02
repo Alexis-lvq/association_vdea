@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteCond %{THE_REQUEST} \s/fonts/ [NC]
+RewriteRule \.(woff|woff2|ttf|otf|eot|svg)$ - [F]
+
+
+
+

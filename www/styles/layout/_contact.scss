@@ -1,0 +1,51 @@
+.contact {
+    input, textarea {
+        border-radius: 0 !important;
+        border: 1px solid rgb(26, 34, 49);
+    }
+}
+
+h1 {
+    font-family: 'Operetta 18 Extra';
+    font-weight: 200;
+    color: rgb(26, 34, 49);
+    font-size: 3.5rem;
+}
+
+
+h2 {
+    font-family: 'Operetta 18 Extra';
+    font-weight: 200;
+    color: rgb(26, 34, 49);
+    font-size: 3.5rem;
+}
+
+@media (max-width: 768px) {
+    h2 {
+        text-align: center;
+    }
+}
+
+h3 {
+    font-family: 'Operetta 18 Extra';
+    font-weight: 200;
+    color: rgb(26, 34, 49);
+}
+
+p {
+    font-family: "Avenir Light";
+    font-weight: 300;
+    color: rgb(26, 34, 49);
+    font-size: 1.4rem;
+}
+
+@media (max-width: 768px) {
+    p {
+        text-align: center;
+    }
+}
+
+
+
+
+

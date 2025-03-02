@@ -1,0 +1,359 @@
+
+.background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/banniere.webp');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center 20%; 
+}
+
+.background h1 {
+    font-family: 'Operetta 18 Black';
+    font-weight: 900;
+    color: rgb(243, 243, 243);
+    padding-top: 114px;
+    font-size: 125px;
+    letter-spacing: 3px;
+}
+
+.background h4 {
+    font-family: "Avenir Light";
+    font-weight: 300;
+    color: rgb(243, 243, 243);
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+}
+
+@media (max-width: 768px) {
+    .background h1 {
+        text-align: center; 
+        font-size: 55px;
+    }
+    .background h4 {
+        text-align: center;
+        font-size: 1rem; 
+    }
+}
+
+@media (max-width: 1200px) {
+    .background h1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .cours, .association {
+        min-height: auto; 
+    }
+}
+
+.spectacle {
+    background-color: rgb(243, 243, 243);
+}
+
+.actu {
+    min-height: 100vh; 
+    background-color: rgb(243, 243, 243);
+    padding-bottom: 50px; 
+}
+
+.partenaires {
+    height: 50vh;
+    background-color: rgb(243, 243, 243);
+}
+
+.cours h2 {
+    font-family: 'Operetta 18 Extra';
+    font-weight: 200;
+    color: rgb(26, 34, 49);
+    font-size: 3.5rem;
+}
+
+.cours h3 {
+    font-family: 'Operetta 18 Extra';
+    font-weight: 200;
+    color: rgb(26, 34, 49);
+}
+
+.cours p {
+    font-family: "Avenir Light";
+    font-weight: 300;
+    color: rgb(26, 34, 49);
+    font-size: 1.4rem;
+}
+
+.flip-card-back h4 {
+    font-family: 'Operetta 18 Extra';
+    font-weight: 200;
+    color: white;
+}
+
+.flip-card-back p {
+    color: white;
+    font-family: "Avenir Light";
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.btn-reserver {
+    background-color: rgb(243, 243, 243); 
+    border-color: rgb(26, 34, 49); 
+    color: rgb(26, 34, 49);
+    border-radius: 0px;
+    width: 150px;
+}
+
+.btn-reserver:hover {
+    background-color: rgb(243, 243, 243); 
+    border-color: rgb(192, 178, 129);
+    color: rgb(192, 178, 129);
+}
+
+.btn-primary {
+    background-color: rgb(192, 178, 129); 
+    border-color: rgb(26, 34, 49); 
+    color: rgb(26, 34, 49); 
+    border-radius: 0px;
+    width: 150px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(26, 34, 49); 
+    border-color: rgb(192, 178, 129);
+    color: rgb(192, 178, 129);
+}
+
+.btn-secondary {
+    background-color: rgb(192, 178, 129); 
+    border-color: rgb(192, 178, 129); 
+    color: white; 
+    border-radius: 0px;
+}
+
+.btn-secondary:hover {
+    background-color: rgb(26, 34, 49); 
+    border-color: rgb(192, 178, 129);
+    color: white;
+}
+
+.card-custom {
+    border-radius: 0px; 
+}
+
+.card img {
+    border-radius: 0 !important;
+    height: 250px;
+}
+
+.card {
+    padding: 0;
+    margin: 0; 
+    border: 1px solid rgb(26, 34, 49);
+}
+
+.card-img {
+    width: 100% !important; 
+    object-fit: cover !important; 
+    display: block !important; 
+}
+
+.association h2 {
+    font-family: 'Operetta 18 Extra';
+    font-weight: 200;
+    color: rgb(26, 34, 49);
+    font-size: 3.5rem;
+}
+
+.association p {
+    font-family: "Avenir Light";
+    font-weight: 300;
+    color: rgb(26, 34, 49);
+    line-height: 1.8;
+    font-size: 1.4rem;
+}
+
+/*----------ANIMATIONS REVEAL JS----------*/ 
+
+.reveal {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+}
+
+.reveal_visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/*----------ANIMATIONS REVEAL JS----------*/ 
+
+.spectacle h2 {
+    font-family: 'Operetta 18 Extra';
+    font-weight: 200;
+    color: rgb(26, 34, 49);
+    font-size: 3.5rem;
+}
+
+.spectacle p {
+    font-family: "Avenir Light";
+    font-weight: 300;
+    color: rgb(26, 34, 49);
+    font-size: 1.4rem;
+}
+
+.actu h2 {
+    font-family: 'Operetta 18 Extra';
+    font-weight: 200;
+    color: rgb(26, 34, 49);
+    font-size: 3.5rem;
+}
+
+.actu p {
+    font-family: "Avenir Light";
+    font-weight: 300;
+    color: rgb(26, 34, 49);
+    font-size: 1.4rem;
+}
+
+.partenaires h2 {
+    font-family: 'Operetta 18 Extra';
+    font-weight: 200;
+    color: rgb(26, 34, 49);
+    font-size: 3.5rem;
+    padding-bottom: 50px;
+}
+
+.flip-card {
+    width: 300px; 
+    height: 300px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 0.6s ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, 
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 0;
+}
+
+.flip-card-front {
+    background-color: transparent;
+    border: none;
+}
+
+.flip-card-front img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.flip-card-back {
+    background-color: rgb(26, 34, 49);
+    transform: rotateY(180deg);
+    border: none;
+    color: white;
+    padding: 30px;
+}
+
+.flip-card-back h5 { 
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.flip-card-back p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.flip-card-back .btn {
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+@keyframes slides {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+}
+
+.logos {
+    overflow: hidden;
+    padding: 30px 0px;
+    white-space: nowrap;
+    position: relative;
+}
+  
+.logos:before, .logos:after {
+    position: absolute;
+    top: 0;
+    content: '';
+    width: 250px;
+    height: 100%;
+    z-index: 2;
+}
+  
+.logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(243, 243, 243));
+}
+  
+.logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(243, 243, 243));
+}
+  
+.logo_items {
+    display: inline-block;
+    animation: 35s slides infinite linear;
+}
+  
+.logo_items img {
+    height: 150px;
+    width: auto;
+    margin-right: 100px; 
+}
+
+@media (max-width: 768px) {
+    .logo_items:nth-child(2) {
+        display: none;
+    }
+
+    .logo_items {
+        animation-duration: 25s; 
+    }
+
+    .logo_items img {
+        max-height: 60px; 
+        margin: 0 20px; 
+    }
+}

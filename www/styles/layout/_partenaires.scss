@@ -1,0 +1,133 @@
+main {
+
+    .container {
+        margin-top: 100px;
+
+        .row {
+
+            .titre_partenaires {
+                text-align: center;
+                margin-bottom: 50px;
+
+                p {
+                    font-family: "Avenir Light";
+                    font-size: 1.2rem;
+                }
+        
+                h1 {
+                    font-family: 'Operetta 18 Extra';
+                    font-size: 2.8rem;
+                }
+            }
+
+            .image_partenaires, .col-12, .row {
+
+                .image_bloc_partenaires {
+
+                    img {
+                        width: 100%;
+                    }
+
+                    #creps {
+                        width: 80%;
+                        text-align: end;
+                    }
+
+                    #isfac {
+                        padding-top: 30px;
+                        width: 100%;
+                    }
+
+                    #poitiers {
+                        padding-top: 30px;
+                        width: 100%;
+                    }
+
+                    #vouneil {
+                        width: 80%;
+                    }
+
+                }
+            }
+
+            .zone_border {
+                border: 2px solid rgb(192, 178, 129);
+                padding: 15px;
+                margin-top: 200px;
+                margin-bottom: 200px;
+
+                .texte_border {
+
+                    p {
+                        font-family: "Avenir Light";
+                        font-size: 1.2rem;
+                    }
+                }
+
+                .image_border {
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .devenir_partenaires {
+                p {
+                    font-family: "Avenir Light";
+                    font-size: 1.2rem;
+                    text-align: center;
+                }
+        
+                h2 {
+                    font-family: 'Operetta 18 Extra';
+                    font-size: 2.8rem;
+                    text-align: center;
+                }
+
+                .formulaire_partenaires {
+                    margin: 0 auto;
+                    margin-bottom: 100px;
+
+                    form {
+                        margin-bottom: 45px;
+                        margin-top: 75px;
+
+                        .input_nom {
+                            width: 100%;
+                            border: 1px solid rgb(192, 178, 129);
+                            height: 60px;
+                            margin-bottom: 40px;
+                            padding-left: 20px;
+                        }
+
+                        .input_mail {
+                            width: 100%;
+                            height: 60px;
+                            border: 1px solid rgb(192, 178, 129);
+                            padding-left: 20px;
+                            margin-bottom: 40px;
+                        }
+
+                        .commentaire_partenaires {
+                            width: 100%;
+                            height: 200px;
+                            border: 1px solid rgb(192, 178, 129);
+                            margin-bottom: 40px;
+                        }
+
+                        .input_submit_partenaires {
+                            width: 100%;
+                            height: 50px;
+                            border-radius: 5px;
+                            background-color: rgb(26, 34, 49);
+                            border: 1px solid rgb(26, 34, 49) ;
+                            color: rgb(243, 243, 243);
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

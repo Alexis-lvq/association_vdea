@@ -1,0 +1,48 @@
+.assot {
+    padding-top: 125px;
+}
+
+.value {
+    margin-top: -50px;
+}
+
+.chiffre {
+    margin-top: 100px;
+}
+
+.isa {
+    padding-top: 70px;
+}
+
+
+.parlent_association {
+    margin-top: 100px;
+
+    p {
+        font-family: "Avenir Light";
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-family: 'Operetta 18 Extra';
+        font-size: 2.8rem;
+    }
+
+}
+
+.parlent_image_association {
+
+    .grande_image {
+        margin-bottom: 20px;
+    }
+
+    .petite_image {
+        margin-bottom: 20px;
+        img {
+            padding-left: 10px;
+            padding-right: 10px;                
+            width: 50%;
+        }
+    }
+}

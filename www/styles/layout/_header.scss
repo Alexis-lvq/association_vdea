@@ -1,0 +1,77 @@
+header {
+
+    .navbar-custom {
+        background-color: rgb(26, 34, 49) !important; 
+    }
+
+    .navbar-custom .nav-link {
+        color: rgb(192, 178, 129) !important; 
+        font-family: "Avenir Light";
+        font-weight: 300;
+        font-size: 1.2rem;
+    }
+
+    .navbar-custom .nav-link:hover {
+        color: rgb(243, 243, 243) !important; 
+    }
+
+    .custom-toggler {
+        border-color: rgb(192, 178, 129); 
+    }
+
+    .custom-toggler .navbar-toggler-icon {
+        filter: invert(85%) sepia(24%) saturate(290%) hue-rotate(5deg);
+    }
+
+    .custom-toggler:focus,
+    .custom-toggler:active,
+    .navbar-toggler:focus,
+    .navbar-toggler:active {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+
+    @media (max-width: 991px) { 
+        .nav {
+            display: none; 
+        }
+    }
+
+    @media (max-width: 991px) { 
+        .navbar-nav {
+            width: 100%; 
+            text-align: center; 
+        }
+
+        .navbar-nav .nav-item,
+        .navbar-nav .nav-link {
+            text-align: center; 
+            display: block; 
+        }
+    }
+
+    .navbar-custom {
+        position: fixed;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.95);
+        z-index: 1000;
+        transition: transform 0.4s ease-in-out, opacity 0.3s ease-in-out;
+    }
+
+    .navbar-hidden {
+        transform: translateY(-100%);
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+
+@media (max-width: 768px) { 
+    .header_bottom {
+        height: 50vh; 
+        background-size: contain; 
+        background-position: top center; 
+    }
+}
+
+
