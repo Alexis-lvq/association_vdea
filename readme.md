@@ -1,6 +1,7 @@
 💃 Site Web fictif - Association Veda
 
-📌 Projet fictif réalisé lors d’un challenge en équipe à l’ISFAC
+📌 Projet fictif réalisé lors d’un challenge en équipe à l’ISFAC de Poitiers
+
 🚀 Description
 
 Ce projet a été développé en 2,5 jours lors d’un challenge en équipe à l’ISFAC de Poitiers, du 19 au 21 février 2025.
@@ -20,6 +21,5 @@ Front-end : HTML, SCSS, JavaScript
 Back-end : PHP
 Base de données : MySQL
 Hébergement : Alwaysdata
-📎 Liens
 
 🔗 Version en ligne (https://alexisdev.alwaysdata.net)
